@@ -1,4 +1,4 @@
-const base = require('@faast/ts-config/react/jest.config.js')
+const base = require('@bitaccess/ts-config/react/jest.config.js')
 
 module.exports = Object.assign({}, base, {
   // overrides here
