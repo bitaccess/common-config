@@ -14,7 +14,7 @@ NM_BIN="$ROOT_DIR/node_modules/.bin"
 OPTIONS_NAME="typedoc.js"
 OPTIONS="$ROOT_DIR/$OPTIONS_NAME"
 if [ ! -f "$OPTIONS" ]; then
-  echo "Using default $OPTIONS_NAME from @faast/ts-config/library"
+  echo "Using default $OPTIONS_NAME from @bitaccess/ts-config/library"
   OPTIONS="$LIB_DIR/$OPTIONS_NAME"
 fi
 
