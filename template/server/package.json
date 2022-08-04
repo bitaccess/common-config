@@ -1,5 +1,5 @@
 {
-  "name": "faast-ts-config-library-template",
+  "name": "ts-config-library-template",
   "version": "0.0.1",
   "description": "Template for typescript library",
   "main": "dist/index.umd.js",
@@ -22,7 +22,7 @@
     "postversion": "git push && git push --tags"
   },
   "devDependencies": {
-    "@faast/ts-config": "github:go-faast/faast-ts-config",
+    "@bitaccess/ts-config": "github:bitaccess/ts-config",
     "@types/jest": "^23.3.2",
     "@types/node": "^10.11.0",
     "coveralls": "^3.0.2",
