@@ -1,11 +1,11 @@
-# faast-ts-config
+# ts-config
 
 Common typescript config
 
 ## Usage
 
 ```bash
-npm i -D go-faast/faast-ts-config
+npm i -D bitaccess/ts-config
 ```
 
 Extend the files needed.
@@ -15,7 +15,7 @@ Extend the files needed.
 `jest.config.js`
 
 ```javascript
-const base = require('@faast/ts-config/library/jest.config.js')
+const base = require('@bitaccess/ts-config/library/jest.config.js')
 
 module.exports = Object.assign({}, base, {
   // overrides here
@@ -26,7 +26,7 @@ module.exports = Object.assign({}, base, {
 
 ```json
 {
-  "extends": "@faast/ts-config/library/tsconfig.json",
+  "extends": "@bitaccess/ts-config/library/tsconfig.json",
   "compilerOptions": {
     "baseUrl": ".",
     "outDir": "dist/lib",
